@@ -135,3 +135,21 @@ padding: 0;
     margin-left: 1em;
 }
     
+.rodape__texto {
+    margin: 1em 0;
+    color: Var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: Var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: Var(--botao-azul-efeito);
+    color: Var(--cor-de-fundo);
+}
